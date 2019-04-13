@@ -1,0 +1,301 @@
+body
+{
+	background-color: #ddd;
+}
+
+table
+{
+	text-align: left;
+}
+
+.tanpa
+{
+	background-color: #196;
+}
+
+.tanpa:hover
+{
+	background-color: #196;
+}
+
+.header
+{
+	height: 60px;
+	width: 100%;
+	background-color: #196;
+}
+
+.landingpage
+{
+	height: 400px;
+	width: inherit;
+	background-color: #08b;
+}
+
+.landingpagekiri
+{
+	font-family: "Calibri";
+	color: white;
+	margin-left: 140px;
+}
+
+.landingpagekanan
+{
+	font-family: "Calibri";
+	color: white;
+	margin-left: 700px;
+	margin-top: -160px;
+}
+
+ul
+{
+	width: 100%;
+	text-align: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+	background-color: #196;
+}
+
+ul li
+{
+	font: bold 12px/18px sans-serif;
+	color: black;
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	padding: 15px 20px;
+	background: #196;
+	cursor: pointer;
+}
+
+ul li:hover
+{
+	background: #1a6;
+	color: black;
+}
+
+ul li ul
+{
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 99%;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
+ul li ul li
+{
+	background: #196;
+	display: block; /*Untuk menandakan batas akhir */
+	color: black;
+}
+
+ul li ul li:hover
+{
+	background: #1a6;
+}
+
+ul li a:link, a:active, a:visited
+{
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 11px;
+	color: #111;
+}
+
+ul li a:hover
+{
+	background: #1a6;
+	color: black;
+}
+
+ul li:hover ul
+{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+.kanan
+{
+	float: right;
+}
+
+.login
+{
+	width: 300px;
+	height: auto;
+	margin-top: 50px;
+	margin-left: 39%;
+	background-color: #eee;
+}
+
+.loginfont
+{
+	font-family: fantasy;
+	color: #666;
+}
+
+.grtbtn
+{
+	background-color: #5bc0ab;
+	color: white;
+	width: auto;
+	height: 30px;
+	border-color: #5bc0ab;
+	cursor: pointer;
+	font-family: "Aharoni";
+	font-weight: bold;
+}
+
+.grtbtn:hover
+{
+	background-color: #5bc0cc;
+	border-color: #5bc0cc;
+}
+
+.goodbtn
+{
+	background-color: #27a;
+	color: white;
+	width: auto;
+	height: 30px;
+	border-color: #27b;
+	cursor: pointer;
+	font-family: "Aharoni";
+	font-weight: bold;
+}
+
+.goodbtn:hover
+{
+		background-color: #27f;
+		border-color: #27f;
+}
+
+.okbtn
+{
+	background-color: #2b7;
+	color: white;
+	width: auto;
+	height: 30px;
+	border-color: #2b7;
+	cursor: pointer;
+	font-family: "Aharoni";
+	font-weight: bold;
+}
+
+.okbtn:hover
+{
+	background-color: #2c7;
+	border-color: #2c7;
+}
+
+.dgrbtn
+{
+	background-color: #e23;
+	color: white;
+	width: auto;
+	height: 30px;
+	border-color: #e23;
+	cursor: pointer;
+	font-family: "Aharoni";
+	font-weight: bold;
+}
+
+.dgrbtn:hover
+{
+	background-color: #f45;
+	border-color: #f45
+}
+
+.logininput
+{
+	background-color: #fff;
+	width: 80%;
+	height: 25px;
+}
+
+.konten
+{
+	background-color: #eee;
+	font-family: Tahoma;
+	width: 80%;
+	height: auto;
+	font-color: black;
+	margin-left: 190px;
+	border-radius: 10px;
+}
+
+.kontentitle
+{
+	font-family: "Aharoni";
+	color: #186;
+	margin-left: 100px;
+}
+
+#signupindex
+{
+	margin-left: 36%;
+	width: 400px;
+	height: 250px;
+	margin-top: 75px;
+	background-color: white;
+	border-radius:  10px;
+}
+
+.signuptitle
+{
+	color: #d44;
+	font-family: "Calibri";
+}
+
+.signupbtn
+{
+	background-color: #27b;
+	color: white;
+	height: 80px;
+	width: 90%;
+	margin-right: 10px;
+	cursor: pointer;
+	font-family: "Calibri";
+	font-size: 30px;
+}
+
+.signupbtn:hover
+{
+	background-color: #27f;
+	border-bottom-color: yellow;
+}
+
+img
+{
+	width: 128px;
+	height: 128px;
+	margin-left: 10px;
+	margin-top: 30px;
+	border-radius: 50%;
+}
+
+.siswa
+{
+	margin-left: 200px;
+	margin-top: -130px;
+}
+
+.cekdaftar
+{
+	margin-left: 700px;
+	margin-top: -80px;
+	font-family: "Aharoni";
+	text-decoration: underline;
+}
+
+.mlipir
+{
+	margin-left: 470px;
+	margin-top: 0px;
+}
